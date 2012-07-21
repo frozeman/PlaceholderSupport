@@ -1,10 +1,10 @@
 /*
 ---
-description:
+description: Adds cross browser Placeholder support to inputs and textareas, which have a placholder attribute.
 
 license: MIT-style
 
-author:
+authors:
 - Fabian Vogelsteller [frozeman.de]
 
 requires:
@@ -12,12 +12,6 @@ requires:
 
 provides: [PlaceholderSupport]
 
-...
-*/
-/*!
-* Copyright (c) 2012 Fabian Vogelsteller
-*
-* Totaly simple PlaceHolder Support for all Browsers
 */
 PlaceholderSupport = new Class({
   initialize : function(els){
