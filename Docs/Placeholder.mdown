@@ -1,0 +1,8 @@
+Class: PlaceholderSupport(); {#Placeholder}
+=======================
+
+### Syntax
+  new PlaceholderSupport(elements);
+
+### Arguments
+1. elements - can be a string with CSS selectors, or an array with elements, or empty.
