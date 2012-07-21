@@ -12,6 +12,7 @@ requires:
 
 provides: [PlaceholderSupport]
 
+...
 */
 PlaceholderSupport = new Class({
   initialize : function(els){
