@@ -58,6 +58,11 @@ var PlaceholderSupport = new Class({
         col = col.slice(1);
         usePound = true;
     }
+    
+    // fix short color codes
+    if(col.length == 3) {
+    	col = col[0]+col[0]+col[1]+col[1]+col[2]+col[2];
+    }
 
     var num = parseInt(col,16);
 
